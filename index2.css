@@ -60,7 +60,7 @@ header nav ul li a:hover {
 .notes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 50px;
+    gap: 80px;
     margin-top: 50px;
 }
 

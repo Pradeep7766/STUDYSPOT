@@ -41,7 +41,18 @@ header nav ul li a:hover{
     text-decoration: underline;
 }
 
-.logout-btn {
+.login-btn {
+    margin-left: 0;
+    background-color: #000000;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.signup-btn {
+    margin-left: 0;
     background-color: #000000;
     border: none;
     padding: 10px 20px;
@@ -116,7 +127,8 @@ header nav ul li a:hover{
 }
 
 .mission-section img {
-    width: 80%;
+    width: 500px;
+    height: 80vh;
     border-radius: 0px;
 }
 
@@ -149,11 +161,11 @@ footer .contact-info p {
         margin: 10px 0;
     }
 
-    .logout-btn {
+    .btn{
         align-self: flex-end;
-        margin-top: 10px;
+        margin-top: 10px
     }
-
+    
     /* Stack intro-section elements */
     .intro-section {
         flex-direction: column;
