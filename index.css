@@ -40,7 +40,7 @@ header nav ul li a {
 header nav ul li a:hover{
     text-decoration: underline;
 }
-
+/* 
 .login-btn {
     margin-left: 0;
     background-color: #000000;
@@ -60,7 +60,7 @@ header nav ul li a:hover{
     cursor: pointer;
     font-weight: bold;
     border-radius: 20px;
-}
+} */
 
 /* Main Content */
 .intro-section {
@@ -72,6 +72,7 @@ header nav ul li a:hover{
 
 .intro-section .text-content {
     flex: 2;
+    text-align:center;
 }
 
 .intro-section .image-content {
@@ -127,7 +128,7 @@ header nav ul li a:hover{
 }
 
 .mission-section img {
-    width: 500px;
+    width: 100%;
     height: 80vh;
     border-radius: 0px;
 }
@@ -161,10 +162,19 @@ footer .contact-info p {
         margin: 10px 0;
     }
 
-    .btn{
+
+    /* .btn{
+        align-self: flex-end;
+        margin-top: 10px;
+    } */
+    /* .login-btn{
         align-self: flex-end;
         margin-top: 10px
     }
+    .signup-btn{
+        align-self: flex-end;
+        margin-top: 10px
+    } */
     
     /* Stack intro-section elements */
     .intro-section {
