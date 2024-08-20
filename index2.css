@@ -107,9 +107,11 @@ footer {
     text-align: center;
 }
 
-footer .contact-info p {
-    margin: 5px 0;
+footer .copyright {
+    margin-top: 10px;
+    /* font-size: 10px; */
 }
+
 /* Search Bar Styles */
 #searchBar {
     padding: 10px;
