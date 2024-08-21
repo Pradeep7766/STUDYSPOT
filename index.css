@@ -40,13 +40,13 @@ header nav ul li a {
 header nav ul li a:hover{
     text-decoration: underline;
 }
-/* 
+
 .login-btn {
     margin-left: 0;
     background-color: #000000;
     border: none;
     padding: 10px 20px;
-    color: white;
+    color: rgb(254, 254, 254);
     cursor: pointer;
     font-weight: bold;
     border-radius: 20px;
@@ -60,7 +60,7 @@ header nav ul li a:hover{
     cursor: pointer;
     font-weight: bold;
     border-radius: 20px;
-} */
+}
 
 /* Main Content */
 .intro-section {
@@ -162,19 +162,18 @@ footer .contact-info p {
         margin: 10px 0;
     }
 
-
-    /* .btn{
+    .btn{
         align-self: flex-end;
         margin-top: 10px;
-    } */
-    /* .login-btn{
+    } *
+    .login-btn{
         align-self: flex-end;
         margin-top: 10px
     }
     .signup-btn{
         align-self: flex-end;
         margin-top: 10px
-    } */
+    }
     
     /* Stack intro-section elements */
     .intro-section {
@@ -191,8 +190,8 @@ footer .contact-info p {
 
     /* Adjust course card size */
     .course-card {
-        width: 100px;
-        height: 100px;
+        width: 50vw;
+        height: 30vh;
     }
 
     /* Stack mission-section elements */
